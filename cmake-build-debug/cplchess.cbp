@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cplchess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Tests\;CMake Files\Tests\Catch2\;CMake Files\Tests\Catch2\contrib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplchess_lib">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/cplchess_lib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplchess_lib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplchess_lib/fast">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/cplchess_lib.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplchess_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplchess">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/cplchess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplchess"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplchess/fast">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/cplchess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 cplchess/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/home/alexander/cplchess-r0748533/Tests/Catch2/single_include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/cplchess-r0748533/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/cplchess-r0748533/."/>
+					<Add directory="/home/alexander/cplchess-r0748533/Tests/Catch2/single_include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alexander/cplchess-r0748533/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexander/cplchess-r0748533/Board.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Board.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/CastlingRights.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/CastlingRights.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/EngineFactory.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/EngineFactory.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Fen.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Fen.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Main.cpp">
+			<Option target="cplchess"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Move.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Move.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Piece.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Piece.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/PrincipalVariation.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/PrincipalVariation.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Square.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Square.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/BoardTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/EngineTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/FenTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/Main.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/MoveTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/PieceTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/SquareTests.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Uci.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Uci.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Board.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/CastlingRights.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/EngineFactory.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Fen.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Move.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Piece.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/PrincipalVariation.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Square.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/Uci.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/cmake-build-debug/CMakeFiles/cplchess_lib.dir/subClass.cpp.o">
+			<Option target="cplchess"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/subClass.cpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/subClass.hpp">
+			<Option target="cplchess_lib"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/Catch2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\Catch2\"/>
+		</Unit>
+		<Unit filename="/home/alexander/cplchess-r0748533/Tests/Catch2/contrib/Catch.cmake">
+			<Option virtualFolder="CMake Files\Tests\Catch2\contrib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

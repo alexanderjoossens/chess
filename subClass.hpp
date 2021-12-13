@@ -6,10 +6,9 @@
 #define CPLCHESS_SUBCLASS_HPP
 #include "Engine.hpp"
 typedef struct bnode {
-
     int eval;
     std::optional<Move> move;
-    struct bnode *onder;
+    struct bnode *next;
 } MinMaxNode;
 
 class subClass: public Engine {
@@ -28,8 +27,4 @@ private:
 
 };
 
-
-
-
 #endif //CPLCHESS_SUBCLASS_HPP
-

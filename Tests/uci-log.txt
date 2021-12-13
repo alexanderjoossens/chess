@@ -1,0 +1,33 @@
+UCI engine started2
+
+runCommand: > uci
+runCommand2: > uci
+going into command...
+sendCommand: < id name AJSchaakEngine 23
+sendCommand: < id author AJ
+sendCommand: < uciok
+
+runCommand: > ucinewgame
+runCommand2: > ucinewgame
+going into command...
+
+runCommand: > isready
+runCommand2: > isready
+going into command...
+sendCommand: < readyok
+
+runCommand: > position fen r3kb1r/2p1ppp1/p1b2n1p/3qN3/3P4/4P3/PP3PPP/RNBQK2R w KQkq - 4 11 moves e1g1
+runCommand2: > position fen r3kb1r/2p1ppp1/p1b2n1p/3qN3/3P4/4P3/PP3PPP/RNBQK2R w KQkq - 4 11 moves e1g1
+going into command...
+r...kb.r
+..p.ppp.
+p.b..n.p
+...qN...
+...P....
+....P...
+PP...PPP
+RNBQ.RK.
+
+
+runCommand: > go
+runCommand2: > go
